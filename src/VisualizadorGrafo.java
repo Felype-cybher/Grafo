@@ -34,7 +34,7 @@ public class VisualizadorGrafo {
             toolBar.add(btnAddVertice);
             toolBar.add(btnAddAresta);
             toolBar.add(btnMover);
-            toolBar.add(Box.createHorizontalGlue()); // Empurra o botão de limpar para a direita
+            toolBar.add(Box.createHorizontalGlue()); 
 
             JButton btnLimpar = new JButton("Limpar Tudo");
             toolBar.add(btnLimpar);
