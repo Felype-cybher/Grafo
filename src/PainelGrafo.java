@@ -27,12 +27,12 @@ public class PainelGrafo extends JPanel {
 
     public PainelGrafo() {
         configurarListeners();
-        setBackground(new Color(0x1E, 0x1E, 0x1E)); // Cor de fundo escura (Dark Mode)
+        setBackground(new Color(0x1E, 0x1E, 0x1E)); 
     }
 
     public void setModo(Modo modo) {
         this.modoAtual = modo;
-        verticeSelecionado = null; // Reseta a seleção ao mudar de modo
+        verticeSelecionado = null; 
         repaint();
     }
 
@@ -77,7 +77,7 @@ public class PainelGrafo extends JPanel {
             @Override
             public void mouseMoved(MouseEvent e) {
                 verticeSobMouse = getVerticeEm(e.getPoint());
-                pontoArrastado = e.getPoint(); // Para a linha de preview
+                pontoArrastado = e.getPoint(); 
                 repaint();
             }
 
